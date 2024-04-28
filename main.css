@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+#task-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.task-description {
+    font-weight: bold;
+}
+
+.task-due-date {
+    color: #999;
+}
